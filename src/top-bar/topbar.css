@@ -1,0 +1,29 @@
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  height: 100px;
+  background-color: #fff !important;
+}
+
+.top-bar input {
+  margin-bottom: 0px;
+}
+
+.top-bar h1 {
+  margin-bottom: 0px;
+}
+
+@media only screen and (max-width: 500px) {
+  .top-bar {
+    height: 200px;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+  .top-bar input {
+    width: 150%;
+  }
+}
